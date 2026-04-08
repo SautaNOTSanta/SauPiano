@@ -5,10 +5,17 @@
 SauPiano v0.01 使用说明 Manual
 
   Q行/Z行: 弹奏钢琴音符 / Q/Z: Play piano notes
+  
   数字行: 黑键（升号音）/ Row: Black keys (sharp notes)
+  
   ↑↓ 方向键: 八度 +/- / ↑↓ Arrow keys: Octave +/-
+  
   Esc: 停止所有音符 / Stop all notes
+  
   F1: 显示/隐藏帮助 / Show/Hide Help
-    Windows MIDI 模式走 WinMM → MS GS Wavetable Synth → gm.dls
-    SF2 模式用 rustysynth 合成，cpal 输出
+  
+  Windows MIDI 模式走 WinMM → MS GS Wavetable Synth → gm.dls
+    
+  SF2 模式用 rustysynth 合成，cpal 输出
+    
   关闭 / Close
