@@ -1,0 +1,25 @@
+[package]
+name = "saupiano"
+version = "0.1.0"
+edition = "2021"
+description = "SauPiano v0.01 - Keyboard to MIDI Piano"
+
+[[bin]]
+name = "saupiano"
+path = "src/main.rs"
+
+[dependencies]
+eframe     = { version = "0.28", default-features = true }
+egui       = "0.28"
+midir      = "0.9"
+rustysynth = "1"
+cpal       = "0.15"
+midly      = "0.5"
+anyhow     = "1"
+rfd        = "0.14"
+
+[profile.release]
+opt-level = 3
+
+# Windows 子系统设置（release 时隐藏控制台窗口）
+[package.metadata]
